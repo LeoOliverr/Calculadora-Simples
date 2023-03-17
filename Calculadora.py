@@ -10,7 +10,7 @@ def subtrair(valor1, valor2):
 
 def dividir(valor1, valor2):
     if(valor2 == 0):
-        print("Não é possivel dividir por zero.")
+        print('Não é possivel dividir por zero.')
     else:
         divisao = valor1 / valor2
         print('A divisão é: {0:.2f}'.format(divisao))
